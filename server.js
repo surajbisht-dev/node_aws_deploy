@@ -9,8 +9,9 @@ app.get("/api/get", (req, res) => {
 app.get("/api/get/user", (req, res) => {
   res.send({
     name: "Suraj Bisht",
-    email: "surajbisht1906@hmail.com",
+    email: "surajbisht1906@gmail.com",
     role: "Developer + DevOps",
+    "tech-stack": "MERN + AWS Cloud + DevOps",
   });
 });
 
